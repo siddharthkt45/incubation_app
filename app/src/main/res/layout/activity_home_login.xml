@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/download"
+
+    >
+
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:hint="Email"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/login"
+        android:layout_marginTop="190sp"
+        android:layout_marginBottom="20sp"
+        android:ems="10"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/round_edge"
+        android:backgroundTint="#32C5B1B1"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:hint="Password"
+        android:drawableLeft="@drawable/smart_key"
+        android:layout_marginBottom="45sp"
+        android:textAlignment="center"
+        android:ems="10"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/round_edge"
+        android:backgroundTint="#2051616A"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_edge"
+        android:backgroundTint="#43DBDDDF"
+        android:layout_marginTop="15sp"
+        android:text="Sign In" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:backgroundTint="#3BB6CDDC"
+        android:background="@drawable/round_edge"
+        android:text="Sign Up" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:layout_marginTop="19sp"
+        android:text="Skip"
+        android:textAlignment="center"
+        android:textColor="#000000" />
+
+</LinearLayout>
