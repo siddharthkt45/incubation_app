@@ -11,12 +11,15 @@
         android:roundIcon="@drawable/incubationcirclesmall"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:usesCleartextTraffic="true"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Register"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         >
-        <activity android:name=".HomeLogin"
-         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-         >
+
         </activity>
+        <activity
+            android:name=".HomeLogin"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
         <activity
             android:name=".MainActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
