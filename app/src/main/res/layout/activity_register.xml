@@ -19,10 +19,11 @@
         android:layout_marginBottom="10sp"
         android:textAlignment="center"
         android:ems="10"
+        android:text="Full Name"
         android:layout_gravity="center_horizontal"
         android:background="@drawable/round_edge"
         android:backgroundTint="#2051616A"
-        android:inputType="text" />
+        android:inputType="textPersonName" />
 
     <EditText
         android:id="@+id/editTextTextEmailAddressReg"
@@ -47,6 +48,7 @@
         android:layout_marginBottom="25sp"
         android:textAlignment="center"
         android:ems="10"
+        android:text="Full branch name in capitals"
         android:layout_gravity="center_horizontal"
         android:background="@drawable/round_edge"
         android:backgroundTint="#2051616A"
