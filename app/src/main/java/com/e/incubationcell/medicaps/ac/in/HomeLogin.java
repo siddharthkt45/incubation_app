@@ -67,7 +67,8 @@ public class HomeLogin extends AppCompatActivity {
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(HomeLogin.this , editTextTextEmailAddress.getText().toString() +"\n" + editTextTextPassword2.getText().toString(),Toast.LENGTH_LONG).show();
+                startActivity(new Intent(HomeLogin.this,Home.class));
+                finish();
             }
         });
     }
