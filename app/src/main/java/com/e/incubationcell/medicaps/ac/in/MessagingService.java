@@ -1,6 +1,5 @@
 package com.e.incubationcell.medicaps.ac.in;
 
-import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Intent;
 
@@ -10,8 +9,6 @@ import androidx.core.app.NotificationManagerCompat;
 
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
-
-import static androidx.core.app.NotificationManagerCompat.*;
 
 public class MessagingService extends FirebaseMessagingService {
 
@@ -26,7 +23,7 @@ public class MessagingService extends FirebaseMessagingService {
         builder.setContentTitle(title)
                 .setContentText(message)
                 .setAutoCancel(true)
-                .setSmallIcon(R.drawable.incubationcirclesmall);
+                .setSmallIcon(R.drawable.incubationcircless);
 
         NotificationManagerCompat notificationManagerCompat = NotificationManagerCompat.from(MessagingService.this);
         notificationManagerCompat.notify(0,builder.build());
