@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "55752905185",
+    "firebase_url": "https://incubation-app-123.firebaseio.com",
+    "project_id": "incubation-app-123",
+    "storage_bucket": "incubation-app-123.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55752905185:android:8dce54b1a7ca9845fa42a0",
+        "android_client_info": {
+          "package_name": "com.e.incubationcell.medicaps.ac.in"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "55752905185-cd4dhcnas7es0ai9pp9l38veoqiqslkl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDv3KqTlxnvmaQ2JmKHT_pYmDqTf51387I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "55752905185-cd4dhcnas7es0ai9pp9l38veoqiqslkl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
