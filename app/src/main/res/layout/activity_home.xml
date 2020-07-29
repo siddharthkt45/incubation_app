@@ -6,19 +6,39 @@
     android:id="@+id/draweractivity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/medi"
     tools:context=".Home">
 
 
 <com.google.android.material.navigation.NavigationView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:background="#ffffff"
-        app:itemIconTint="#c6c6c6"
-        app:itemTextColor="#000000"
-        android:layout_gravity="start"
-        app:menu="@menu/menu"
-        >
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    app:itemIconTint="#c6c6c6"
+    app:itemTextColor="#000000"
+    android:layout_gravity="start"
+    app:menu="@menu/menu">
 
-    </com.google.android.material.navigation.NavigationView>
+</com.google.android.material.navigation.NavigationView>
+
+    <LinearLayout
+        android:layout_width="257sp"
+        android:layout_height="187sp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="257sp"
+            android:layout_height="187sp"
+            android:background="@drawable/round_layout_bg"
+            android:backgroundTint="#B23A3030"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:padding="15sp"
+            android:text="INCUBATION AND INNOVATION CENTER MEDI-CAPS UNIVERTISY"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+    </LinearLayout>
 
 </androidx.drawerlayout.widget.DrawerLayout>
