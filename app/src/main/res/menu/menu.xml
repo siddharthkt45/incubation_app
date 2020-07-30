@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/s1"
-        android:title="Sample1"
-        android:icon="@drawable/login"/>
-    <item android:id="@+id/s2"
-        android:title="Sample2"
-        android:icon="@drawable/login"/>
-    <item android:id="@+id/s3"
-        android:title="Sample3"
-        android:icon="@drawable/login"/>
-    <item android:id="@+id/s4"
-        android:title="Sample4"
-        android:icon="@drawable/login"/>
+    <item
+        android:id="@+id/about"
+        android:title="About Us"
+        android:icon="@drawable/login" />
+    <item
+        android:id="@+id/service"
+        android:title="Services"
+        android:icon="@drawable/login" />
+    <item
+        android:id="@+id/facilities"
+        android:icon="@drawable/contacticon"
+        android:title="Facilities" />
+    <item
+        android:id="@+id/contant"
+        android:title="Contact Us"
+        android:icon="@drawable/login" />
+    <item
+        android:id="@+id/apply"
+        android:icon="@drawable/login"
+        android:title="Apply" />
 
 
 </menu>
